@@ -1,5 +1,7 @@
 # Manufacturing Downtime Analysis:
+
 ## Process Efficiency in Soda Bottling
+
 ### 1. Project Overview
 
 #### 1.1 Objective
@@ -14,3 +16,19 @@
 
 #### 1.3 Tool
 - Power BI
+
+### 2. Data Description
+
+#### 2.1 Data Sources
+
+Description of the dataset used:
+
+Machine logs or simulated downtime data.
+
+Parameters: timestamps, machine IDs, downtime durations, and reasons for downtime.
+
+#### 2.2 Data Fields
+
+#### 2.3 Data Cleaning
+
+Steps for handling missing, inconsistent, or duplicate data.
