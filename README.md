@@ -24,7 +24,7 @@
 #### 2.2 Data Fields
 
 Field | Description
---------------------
+----------|----------
 Timestamp | Date and time of the event
 
 #### 2.3 Data Cleaning
