@@ -30,6 +30,10 @@ Timestamp | Date and time of the event
 #### 2.3 Data Cleaning
 - Steps for handling missing, inconsistent, or duplicate data.
 
+#### 2.4 Feature Engineering
+- Transformations or aggregations applied to create new features.
+- Data Analysis Expressions (DAX)
+
 ### 3. Exploratory Data Analysis (EDA)
 #### 3.1 Descriptive Statistics
 - Total downtime by machine.
@@ -42,9 +46,6 @@ Timestamp | Date and time of the event
 - Downtime reasons by machine (bar charts).
 
 ### 4. Root Cause Analysis
-#### 4.1 Feature Engineering
-- Identify factors affecting downtime (e.g., machine age, usage intensity).
-- Transformations or aggregations applied to create new features.
 
 #### 4.2 Insights
 - Machines with highest downtime.
