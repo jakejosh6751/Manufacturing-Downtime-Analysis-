@@ -1,5 +1,5 @@
 # Manufacturing Downtime Analysis:
-## Process Efficiency in Soda Bottling
+## Optimizing Process Efficiency in Soda Bottling
 
 ### 1. Project Overview
 #### 1.1 Objective
