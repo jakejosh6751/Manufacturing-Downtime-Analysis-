@@ -31,8 +31,12 @@ Timestamp | Date and time of the event
 - Steps for handling missing, inconsistent, or duplicate data.
 
 #### 2.4 Feature Engineering
-- Transformations or aggregations applied to create new features.
+- Data Transformations.
 - Data Analysis Expressions (DAX)
+
+Measure | Description
+----------|----------
+Line Efficiency | Calculates overall efficiency
 
 ### 3. Exploratory Data Analysis (EDA)
 #### 3.1 Descriptive Statistics
