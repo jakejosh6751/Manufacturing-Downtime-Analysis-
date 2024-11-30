@@ -20,15 +20,11 @@
 ### 2. Data Description
 
 #### 2.1 Data Sources
-
-Description of the dataset used:
-
-Machine logs or simulated downtime data.
-
-Parameters: timestamps, machine IDs, downtime durations, and reasons for downtime.
+- Description of the dataset used:
+- Machine logs or simulated downtime data.
+- Parameters: timestamps, machine IDs, downtime durations, and reasons for downtime.
 
 #### 2.2 Data Fields
 
 #### 2.3 Data Cleaning
-
-Steps for handling missing, inconsistent, or duplicate data.
+- Steps for handling missing, inconsistent, or duplicate data.
