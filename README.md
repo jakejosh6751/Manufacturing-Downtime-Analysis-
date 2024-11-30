@@ -44,9 +44,12 @@ Line Efficiency | Calculates overall efficiency
 - Downtime reasons by machine (bar charts).
 
 ### 4. Insights and Recommendations
-- Preventive maintenance schedules: hhshshhhshjjhj
-- Improved operator training: gshshhhhhhh
-- Upgraded equipment for high-downtime machines: hhshshsshhhhh
+#### 4.1 Insights
+
+#### 4.2 Proposed Solutions
+- Preventive maintenance schedules.
+- Improved operator training.
+- Upgraded equipment for high-downtime machines.
 
 ### 5. Conclusion
 - Summary of findings.
