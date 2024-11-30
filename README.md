@@ -38,13 +38,7 @@ Measure | Description
 ----------|----------
 Line Efficiency | Calculates overall efficiency
 
-### 3. Exploratory Data Analysis (EDA)
-#### 3.1 Descriptive Statistics
-- Total downtime by machine.
-- Average downtime duration.
-- Frequency of downtime reasons.
-
-#### 3.2 Visualizations
+### 3. Data Exploration and Visualization
 - Downtime distribution (box plots or histograms).
 - Downtime trends over time (line charts).
 - Downtime reasons by machine (bar charts).
