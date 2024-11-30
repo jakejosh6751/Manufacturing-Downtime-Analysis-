@@ -30,8 +30,8 @@ Timestamp | Date and time of the event
 #### 2.3 Data Cleaning
 - Steps for handling missing, inconsistent, or duplicate data.
 
-#### 2.4 Feature Engineering
-- Data Transformations.
+#### 2.4 Data Transformation
+- Calculated Columns
 - Data Analysis Expressions (DAX)
 
 Measure | Description
