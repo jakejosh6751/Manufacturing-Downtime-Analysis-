@@ -36,3 +36,26 @@
 - Downtime distribution (box plots or histograms).
 - Downtime trends over time (line charts).
 - Downtime reasons by machine (bar charts).
+
+### 4. Root Cause Analysis
+#### 4.1 Feature Engineering
+- Identify factors affecting downtime (e.g., machine age, usage intensity).
+- Transformations or aggregations applied to create new features.
+
+#### 4.2 Insights
+- Machines with highest downtime.
+- Most common reasons for downtime.
+- Patterns based on time of day, week, or season.
+
+### 5. Recommendations
+#### 5.1 Proposed Solutions
+- Preventive maintenance schedules.
+- Improved operator training.
+- Upgraded equipment for high-downtime machines.
+
+#### 5.2 Cost-Benefit Analysis
+- Potential savings from implementing solutions.
+
+### 6. Conclusion
+- Summary of findings.
+- How the analysis supports manufacturing efficiency.
