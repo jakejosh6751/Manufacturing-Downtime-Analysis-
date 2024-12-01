@@ -19,7 +19,7 @@
 #### 2.1 Data Source
 - Maven Analytics free data sets: [data set](https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=Manu)
 
-#### 2.2 Data Fields
+#### 2.2 Data Tables & Fields
 
 Table | Field | Description
 -----|-----|-----
