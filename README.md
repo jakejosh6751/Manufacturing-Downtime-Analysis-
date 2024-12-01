@@ -26,6 +26,13 @@ Table | Field | Description
 -----|-----|-----
 tab | Timestamp | Date and time of the event
 
+
+
+
+
+
+
+
 #### 2.3 Data Cleaning
 - Steps for handling missing, inconsistent, or duplicate data.
 
