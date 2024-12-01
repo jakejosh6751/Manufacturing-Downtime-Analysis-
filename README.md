@@ -1,4 +1,4 @@
-# Manufacturing Downtime Analysis:
+![image](https://github.com/user-attachments/assets/e7a70c54-9be6-4ecd-b5a5-34a37a522831)# Manufacturing Downtime Analysis:
 ## Optimizing Process Efficiency in Soda Bottling
 
 ### 1. Project Overview
@@ -24,10 +24,24 @@
 
 Table | Field | Description
 -----|-----|-----
-tab | Timestamp | Date and time of the event
-
-
-
+Line productivity | Date
+ | | Product
+ | | Batch
+ | | Operator
+ | | Start Time
+ | | End Time
+ | |
+Products | Product
+ | | Flavor
+ | | Size
+ | | Min batch time
+ | |
+Line downtime | Batch
+ | | Downtime factor
+ | |
+Downtime factors | Factor
+ | | Description
+ | | Operator Error
 
 
 
