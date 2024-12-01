@@ -50,7 +50,3 @@ Line Efficiency | Calculates overall efficiency
 - Preventive maintenance schedules.
 - Improved operator training.
 - Upgraded equipment for high-downtime machines.
-
-### 5. Conclusion
-- Summary of findings.
-- How the analysis supports manufacturing efficiency.
