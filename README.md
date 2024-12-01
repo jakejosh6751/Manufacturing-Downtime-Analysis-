@@ -18,7 +18,6 @@
 ### 2. Data Description
 #### 2.1 Data Source
 - Maven Analytics free data sets: [data set](https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=Manu)
-- Parameters: timestamps, machine IDs, downtime durations, and reasons for downtime.
 
 #### 2.2 Data Fields
 
@@ -42,10 +41,6 @@ Line downtime (Fact table) | Batch | Unique ID for the batch produced
 Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
  | | Description | Downtime factor description
  | | Operator Error | Is this due to operator error? (Yes/No)
-
-
-
-
 
 #### 2.3 Data Cleaning
 - Steps for handling missing, inconsistent, or duplicate data.
