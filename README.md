@@ -17,7 +17,7 @@
 
 ### 2. Data Description
 #### 2.1 Data Source
-- Maven Analytics free data sets: https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=Manu
+- Maven Analytics free data sets: [link](https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=Manu)
 - Parameters: timestamps, machine IDs, downtime durations, and reasons for downtime.
 
 #### 2.2 Data Fields
