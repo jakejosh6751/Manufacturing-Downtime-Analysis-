@@ -24,22 +24,22 @@
 
 Table | Field | Description
 -----|-----|-----
-Line productivity | Date | Date the batch was produced
+Line productivity (Fact table) | Date | Date the batch was produced
  | | Product | ID for the product produced in the batch
  | | Batch | Unique ID for the batch produced
  | | Operator | Production line operator in charge of the batch
  | | Start Time | Time the batch production started
  | | End Time | Time the batch production ended
  | |
-Products | Product | 
+Products (Dimension table) | Product | 
  | | Flavor | 
  | | Size | 
  | | Min batch time | 
  | |
-Line downtime | Batch | 
+Line downtime (Fact table) | Batch | 
  | | Downtime factor | 
  | |
-Downtime factors | Factor | 
+Downtime factors (Dimension table) | Factor | 
  | | Description | 
  | | Operator Error | 
 
