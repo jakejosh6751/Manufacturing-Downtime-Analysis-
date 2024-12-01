@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e7a70c54-9be6-4ecd-b5a5-34a37a522831)# Manufacturing Downtime Analysis:
+# Manufacturing Downtime Analysis:
 ## Optimizing Process Efficiency in Soda Bottling
 
 ### 1. Project Overview
