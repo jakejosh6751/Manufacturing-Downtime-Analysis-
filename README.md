@@ -31,17 +31,17 @@ Line productivity (Fact table) | Date | Date the batch was produced
  | | Start Time | Time the batch production started
  | | End Time | Time the batch production ended
  | |
-Products (Dimension table) | Product | 
- | | Flavor | 
- | | Size | 
- | | Min batch time | 
+Products (Dimension table) | Product | Unique product ID
+ | | Flavor | Soda flavor for the product
+ | | Size | Product size (volume)
+ | | Min batch time | Minimum time required to produce a batch (with no downtime)
  | |
-Line downtime (Fact table) | Batch | 
- | | Downtime factor | 
+Line downtime (Fact table) | Batch | Unique ID for the batch produced
+ | | Downtime factor | Downtime minutes for each factor ID (across columns)
  | |
-Downtime factors (Dimension table) | Factor | 
- | | Description | 
- | | Operator Error | 
+Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
+ | | Description | Downtime factor description
+ | | Operator Error | Is this due to operator error? (Yes/No)
 
 
 
