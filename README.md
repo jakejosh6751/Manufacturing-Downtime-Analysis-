@@ -68,11 +68,13 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 | Line productivity | Actual Batch Time | IF(INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)<0, INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)+1440, INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)) | |
 | | Minimum Batch Time | RELATED(Products[Min batch time]) | |
 
-- Measures
+- Key Measures
 
 | Measure | Data Analysis Expression (DAX) | Description |
 |-|-|-|
 | Line Efficiency | | Calculates overall efficiency |
+| | | |
+| | | |
 
 ### 3. Data Exploration and Visualization
 - Downtime distribution (box plots or histograms).
