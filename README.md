@@ -24,26 +24,26 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 - Maven Analytics free data sets: [data set](https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=Manu)
 
 #### 2.2 Data Tables & Fields
-Table | Field | Description
------|-----|-----
-Line productivity (Fact table) | Date | Date the batch was produced
- | | Product | ID for the product produced in the batch
- | | Batch | Unique ID for the batch produced
- | | Operator | Production line operator in charge of the batch
- | | Start Time | Time the batch production started
- | | End Time | Time the batch production ended
- | |
-Products (Dimension table) | Product | Unique product ID
- | | Flavor | Soda flavor for the product
- | | Size | Product size (volume)
- | | Min batch time | Minimum time required to produce a batch (with no downtime)
- | |
-Line downtime (Fact table) | Batch | Unique ID for the batch produced
- | | Downtime factor | Downtime minutes for each factor ID (across columns)
- | |
-Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
- | | Description | Downtime factor description
- | | Operator Error | Is this due to operator error? (Yes/No)
+| Table | Field | Description |
+|-|-|-|
+| Line productivity (Fact table) | Date | Date the batch was produced |
+| | Product | ID for the product produced in the batch |
+| | Batch | Unique ID for the batch produced |
+| | Operator | Production line operator in charge of the batch |
+| | Start Time | Time the batch production started |
+| | End Time | Time the batch production ended |
+| | | |
+Products (Dimension table) | Product | Unique product ID |
+| | Flavor | Soda flavor for the product |
+| | Size | Product size (volume) |
+| | Min batch time | Minimum time required to produce a batch (with no downtime) |
+| | | |
+Line downtime (Fact table) | Batch | Unique ID for the batch produced |
+| | Downtime factor | Downtime minutes for each factor ID (across columns) |
+| | | |
+Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor |
+| | Description | Downtime factor description |
+| | Operator Error | Is this due to operator error? (Yes/No) |
 
 #### 2.3 Data Cleaning
 * Downtime factors table
@@ -60,8 +60,8 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 #### 2.5 Data Transformation
 - Calculated Columns
 
-Table | Column | Expression | Function
-|-----|-----|-----|-----|
+Table | Calculated Column | Expression | Function
+|-|-|-|-|
 | Line downtime | Description | RELATED('Downtime factors'[Description]) | Looks up Description from 'Downtime factors' table and [Description] column |
 | | Operator error | RELATED('Downtime factors'[Operator Error]) | |
 | | | | |
@@ -69,9 +69,9 @@ Table | Column | Expression | Function
   
 - Measures
 
-Measure | Data Analysis Expression (DAX) | Function
------|-----|-----
-Line Efficiency | | Calculates overall efficiency
+| Measure | Data Analysis Expression (DAX) | Function |
+|-|-|-|
+| Line Efficiency | | Calculates overall efficiency |
 
 ### 3. Data Exploration and Visualization
 - Downtime distribution (box plots or histograms).
