@@ -51,7 +51,9 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
   - Unpivoted other columns except 'Batch'.
   - Renamed columns 'Attribute' to 'Downtime Factor', 'Value' to 'Downtime', and changed data types.
 
-#### 2.4 Data Transformation
+#### 2.4 Data Modeling
+
+#### 2.5 Data Transformation
 - Calculated Columns
 
 Table | Column | Expression | Description
