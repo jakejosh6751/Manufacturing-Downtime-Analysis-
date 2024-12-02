@@ -2,6 +2,10 @@
 ## Optimizing Process Efficiency in Soda Bottling
 
 ### 1. Project Overview
+Downtime in manufacturing refers to periods when production is halted, impacting efficiency, productivity, and profitability. It can stem from equipment failure, maintenance, operator, or supply chain issues, leading to significant operational costs.
+
+Analyzing downtime is crucial for identifying root causes, minimizing disruptions, and optimizing workflows. By addressing downtime effectively, companies can achieve higher production reliability and cost savings.
+
 #### 1.1 Objective
 - Identify the root causes of downtime.
 - Propose actionable solutions to reduce downtime.
