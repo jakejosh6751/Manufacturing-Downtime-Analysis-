@@ -60,7 +60,7 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 #### 2.5 Data Transformation
 - Calculated Columns
 
-Table | Calculated Column | Expression | Function
+| Table | Calculated Column | Expression | Description |
 |-|-|-|-|
 | Line downtime | Description | RELATED('Downtime factors'[Description]) | Looks up Description from 'Downtime factors' table and [Description] column |
 | | Operator error | RELATED('Downtime factors'[Operator Error]) | |
@@ -70,7 +70,7 @@ Table | Calculated Column | Expression | Function
 
 - Measures
 
-| Measure | Data Analysis Expression (DAX) | Function |
+| Measure | Data Analysis Expression (DAX) | Description |
 |-|-|-|
 | Line Efficiency | | Calculates overall efficiency |
 
