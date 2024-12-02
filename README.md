@@ -46,7 +46,10 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
   - Changed column name 'Factor' to 'Downtime Factor'
 * Line downtime table
   - Removed first row: has only one column title (Downtime factor) representing multiple parameters.
-  - 
+  - Promoted first row to headers.
+  - Replaced null values in column '1' with 0. This is to ensure the downtime description 'Emergency stop' represented by 1 appears in visuals.
+  - Unpivoted other columns except 'Batch'.
+  - Renamed columns 'Attribute' to 'Downtime Factor', 'Value' to 'Downtime', and changed data types.
 
 #### 2.4 Data Transformation
 - Calculated Columns
