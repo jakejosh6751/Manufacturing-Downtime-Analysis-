@@ -48,9 +48,9 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 - Calculated Columns
 - Measures
 
-Measure | Description
-----------|----------
-Line Efficiency | Calculates overall efficiency
+Measure | Data Analysis Expression (DAX) | Description
+-----|-----|-----
+Line Efficiency | | Calculates overall efficiency
 
 ### 3. Data Exploration and Visualization
 - Downtime distribution (box plots or histograms).
