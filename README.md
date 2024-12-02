@@ -46,8 +46,12 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 
 #### 2.4 Data Transformation
 - Calculated Columns
-- Measures
+Table | Column | Expression | Description
+-----|-----|-----|-----
+Line Efficiency | | | Calculates overall efficiency
 
+
+- Measures
 Measure | Data Analysis Expression (DAX) | Description
 -----|-----|-----
 Line Efficiency | | Calculates overall efficiency
