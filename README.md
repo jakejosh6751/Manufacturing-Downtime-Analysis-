@@ -42,7 +42,11 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
  | | Operator Error | Is this due to operator error? (Yes/No)
 
 #### 2.3 Data Cleaning
-- Steps for handling missing, inconsistent, or duplicate data.
+* Downtime factors table
+  - Changed column name 'Factor' to 'Downtime Factor'
+* Line downtime table
+  - Removed first row: has only one column title (Downtime factor) representing multiple parameters.
+  - 
 
 #### 2.4 Data Transformation
 - Calculated Columns
