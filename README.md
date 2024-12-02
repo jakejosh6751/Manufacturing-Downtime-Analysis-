@@ -46,7 +46,7 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 
 #### 2.4 Data Transformation
 - Calculated Columns
-- Data Analysis Expressions (DAX)
+- Measures
 
 Measure | Description
 ----------|----------
