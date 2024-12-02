@@ -61,11 +61,11 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 - Calculated Columns
 
 Table | Column | Expression | Function
------|-----|-----|-----
+|-----|-----|-----|-----|
 Line downtime | Description | RELATED('Downtime factors'[Description]) | Looks up Description from 'Downtime factors' table and [Description] column
 | | Operator error | RELATED('Downtime factors'[Operator Error]) | 
 | | | | 
-Line productivity | Actual Batch Time | IF(INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)<0, INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)+1440, INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)) | | 
+Line productivity | Actual Batch Time | IF(INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)<0, INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)+1440, INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)) | 
   
 - Measures
 
