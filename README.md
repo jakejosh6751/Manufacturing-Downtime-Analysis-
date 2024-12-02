@@ -72,7 +72,10 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 
 | Measure | Data Analysis Expression (DAX) | Description |
 |-|-|-|
-| Line Efficiency | | Calculates overall efficiency |
+|Actual Batch Time | SUM('Line productivity'[Actual Batch Time]) | |
+| Down Time Pareto % | var _total = CALCULATE([Total Downtime], ALLSELECTED('Line downtime'[Description])), var _current = [Total Downtime], var _sumTable = SUMMARIZE(ALLSELECTED('Line downtime'), 'Line downtime'[Description], "DownTime", [Total Downtime]), var _cumulativeSum = SUMX(FILTER(_sumTable, [Total Downtime]>=_current), [Total Downtime]), RETURN DIVIDE(_cumulativeSum, _total) | |
+| | | |
+| | | |
 | | | |
 | | | |
 
