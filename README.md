@@ -95,8 +95,9 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 - Operator Mac underperformed - below Overall Operators Efficiency.
 
 #### 4.2 Proposed Solutions
-- Preventive maintenance schedules.
-- Improved operator training.
-- Upgraded equipment for high-downtime machines.
+- Provide batch change training for Mac, machine adjustment training for other operators, and batch coding training for everyone.
+- Utilize preventive maintenance schedules to minimize or predict machine failure.
+- Upgrade or replace aging equipment with high downtime (need more data to ascertain age of equipment).
+- Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.
 
 #### 4.3 Report Summary
