@@ -66,7 +66,8 @@ Table | Calculated Column | Expression | Function
 | | Operator error | RELATED('Downtime factors'[Operator Error]) | |
 | | | | |
 | Line productivity | Actual Batch Time | IF(INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)<0, INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)+1440, INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)) | |
-  
+| | Minimum Batch Time | RELATED(Products[Min batch time]) | |
+
 - Measures
 
 | Measure | Data Analysis Expression (DAX) | Function |
