@@ -62,7 +62,7 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 
 Table | Column | Expression | Description
 -----|-----|-----|-----
-Line Efficiency | | | Calculates overall efficiency
+Line downtime | Description | RELATED('Downtime factors'[Description]) | Looks up Description from 'Downtime factors' table and [Description] column
 
 - Measures
 
