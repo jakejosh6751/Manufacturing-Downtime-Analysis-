@@ -15,7 +15,7 @@
 #### 1.3 Tool
 - Power BI
 
-### 2. Data Description
+### 2. Data Preparation
 #### 2.1 Data Source
 - Maven Analytics free data sets: [data set](https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=Manu)
 
