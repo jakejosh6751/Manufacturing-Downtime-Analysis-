@@ -46,6 +46,7 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 
 #### 2.4 Data Transformation
 - Calculated Columns
+
 Table | Column | Expression | Description
 -----|-----|-----|-----
 Line Efficiency | | | Calculates overall efficiency
