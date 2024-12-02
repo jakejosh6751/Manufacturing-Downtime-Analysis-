@@ -50,8 +50,8 @@ Table | Column | Expression | Description
 -----|-----|-----|-----
 Line Efficiency | | | Calculates overall efficiency
 
-
 - Measures
+
 Measure | Data Analysis Expression (DAX) | Description
 -----|-----|-----
 Line Efficiency | | Calculates overall efficiency
