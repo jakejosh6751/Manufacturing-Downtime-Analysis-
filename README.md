@@ -84,13 +84,19 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 - Overall Line Efficiency, Actual Batch Time, Planned Batch Time, Total Downtime (card)
 - Breakdown of Downtime Causes (donut chart).
 - Top 5 Downtime Factors due to Operator Errors (heat map).
-- Top 5 factors account for 80% of Total Downtime (combo line and column chart).
+- Top 5 factors that account for 80% of Total Downtime (combo line and column chart).
 - Efficiency by Operator (bar chart).
 
 ### 4. Insights and Recommendations
 #### 4.1 Insights
+- Operators caused more downtime amongst other factors.
+- Batch change is major concern for Mac, and Machine adjustment  for other operators.
+- Top 5 factors account for 80% of Total Downtime. 3 of these (Machine adjustment, Batch change, and Batch coding error) are due to operator errors.
+- Operator Mac underperformed - below Overall Operators Efficiency.
 
 #### 4.2 Proposed Solutions
 - Preventive maintenance schedules.
 - Improved operator training.
 - Upgraded equipment for high-downtime machines.
+
+#### 4.3 Report Summary
