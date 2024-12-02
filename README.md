@@ -81,9 +81,11 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 | Total Downtime | SUM('Line downtime'[Downtime]) | |
 
 ### 3. Data Exploration and Visualization
-- Downtime distribution (box plots or histograms).
-- Downtime trends over time (line charts).
-- Downtime reasons by machine (bar charts).
+- Overall Line Efficiency, Actual Batch Time, Planned Batch Time, Total Downtime (card)
+- Breakdown of Downtime Causes (donut chart).
+- Top 5 Downtime Factors due to Operator Errors (heat map).
+- Top 5 factors account for 80% of Total Downtime (combo line and column chart).
+- Efficiency by Operator (bar chart).
 
 ### 4. Insights and Recommendations
 #### 4.1 Insights
