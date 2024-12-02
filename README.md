@@ -1,6 +1,6 @@
 # Manufacturing Downtime Analysis:
 ## Optimizing Process Efficiency in Soda Bottling
-![](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/Manufacturing%20Downtime_1.jpg)
+![Manufacturing Downtime_1.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/Manufacturing%20Downtime_1.jpg)
 
 ### 1. Project Overview
 Downtime in manufacturing refers to periods when production is halted, impacting efficiency, productivity, and profitability. It can stem from equipment failure, maintenance, operator, or supply chain issues, leading to significant operational costs.
@@ -102,3 +102,4 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 - Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.
 
 #### 4.3 Report Summary
+![Manufacturing Downtime_2.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/Manufacturing%20Downtime_2.jpg)
