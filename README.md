@@ -13,7 +13,7 @@
 - Recommendations for process improvements.
 
 #### 1.3 Tool
-- Visualization: Power BI
+- Power BI
 
 ### 2. Data Description
 #### 2.1 Data Source
