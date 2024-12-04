@@ -17,7 +17,7 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 - Visualizations highlighting downtime patterns and root causes.
 - Recommendations for process improvements.
 
-#### 1.3 Tool
+#### 1.3 Technology
 - Power BI
 
 ### 2. Data Preparation
