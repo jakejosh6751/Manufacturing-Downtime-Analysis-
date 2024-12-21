@@ -107,4 +107,4 @@ Downtime factors (Dimension table) | Factor (Primary Key) | Unique ID for each d
 - Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.
 
 #### 4.3 Report Summary
-![Manufacturing Downtime_2.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/Manufacturing%20Downtime_2.jpg)
+![Manufacturing Downtime_2.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime_2.jpg)
