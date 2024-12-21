@@ -47,9 +47,9 @@ Downtime factors (Dimension table) | Factor (Primary Key) | Unique ID for each d
 | | Operator Error | Is this due to operator error? (Yes/No) |
 
 #### 2.3 Data Cleaning
-* Downtime factors table
+* "Downtime factors" table
   - Changed column name 'Factor' to 'Downtime Factor'
-* Line downtime table
+* "Line downtime" table
   - Removed first row: has only one column title (Downtime factor) representing multiple parameters.
   - Promoted first row to headers.
   - Replaced null values in column '1' with 0. This is to ensure the downtime description 'Emergency stop' represented by 1 appears in visuals.
@@ -59,10 +59,9 @@ Downtime factors (Dimension table) | Factor (Primary Key) | Unique ID for each d
 #### 2.4 Data Modeling
 | 'Table'[Feature] 1 | 'Table'[Feature] 2 | Cardinality |
 |-|-|-|
-| 'Line productivity'[Batch] | 'Line downtime'[Batch] | One-to-Many |
-||||
-||||
-||||
+| 'Line productivity'[Batch] | 'Line downtime'[Batch] | One-to-One |
+| 'Products'[Product] | 'Line productivity'[Product] | One-to-Many |
+| 'Downtime factors'[Downtime Factor] | 'Line downtime'[Downtime Factor] | One-to-Many |
 
 #### 2.5 Data Transformation
 - Calculated Columns
