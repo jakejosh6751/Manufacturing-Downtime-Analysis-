@@ -57,6 +57,9 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
   - Renamed columns 'Attribute' to 'Downtime Factor', 'Value' to 'Downtime', and changed data types.
 
 #### 2.4 Data Modeling
+| Feature 1 | Feature 2 | Cardinality |
+|-|-|-|
+| 'Line productivity'[Batch] | 'Line downtime'[Batch] | One to Many |
 
 #### 2.5 Data Transformation
 - Calculated Columns
