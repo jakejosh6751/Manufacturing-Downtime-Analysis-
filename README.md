@@ -62,6 +62,8 @@ Downtime factors (Dimension table) | Factor (Primary Key) | Unique ID for each d
 | 'Line productivity'[Batch] | 'Line downtime'[Batch] | One-to-One |
 | 'Products'[Product] | 'Line productivity'[Product] | One-to-Many |
 | 'Downtime factors'[Downtime Factor] | 'Line downtime'[Downtime Factor] | One-to-Many |
+
+#### Power BI Schema
 ![manufacturing downtime schema.jpg]https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20schema.jpg
 
 #### 2.5 Data Transformation
