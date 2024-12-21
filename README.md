@@ -28,21 +28,21 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 | Table | Field | Description |
 |-|-|-|
 | Line productivity (Fact table) | Date | Date the batch was produced |
-| | Product | ID for the product produced in the batch |
-| | Batch | Unique ID for the batch produced |
+| | Product (FK to Products) | ID for the product produced in the batch |
+| | Batch (Primary Key) | Unique ID for the batch produced |
 | | Operator | Production line operator in charge of the batch |
 | | Start Time | Time the batch production started |
 | | End Time | Time the batch production ended |
 | | | |
-Products (Dimension table) | Product | Unique product ID |
+Products (Dimension table) | Product (Primary Key) | Unique product ID |
 | | Flavor | Soda flavor for the product |
 | | Size | Product size (volume) |
 | | Min batch time | Minimum time required to produce a batch (with no downtime) |
 | | | |
-Line downtime (Fact table) | Batch | Unique ID for the batch produced |
-| | Downtime factor | Downtime minutes for each factor ID (across columns) |
+Line downtime (Pivoted Fact table) | Batch (Primary Key) | Unique ID for the batch produced |
+| | Downtime factor (FK to Downtime factors) | Downtime minutes for each factor ID (across columns) |
 | | | |
-Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor |
+Downtime factors (Dimension table) | Factor (Primary Key) | Unique ID for each downtime factor |
 | | Description | Downtime factor description |
 | | Operator Error | Is this due to operator error? (Yes/No) |
 
@@ -59,7 +59,7 @@ Downtime factors (Dimension table) | Factor | Unique ID for each downtime factor
 #### 2.4 Data Modeling
 | Feature 1 | Feature 2 | Cardinality |
 |-|-|-|
-| 'Line productivity'[Batch] | 'Line downtime'[Batch] | One to Many |
+| 'Line productivity'[Batch] | 'Line downtime'[Batch] | One-to-Many |
 
 #### 2.5 Data Transformation
 - Calculated Columns
