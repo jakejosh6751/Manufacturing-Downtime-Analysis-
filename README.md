@@ -24,7 +24,7 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 #### 2.1 Data Source
 - Maven Analytics free data sets: [data set](https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=Manu)
 
-#### 2.2 Data Tables & Fields
+#### 2.2 Data Tables, Fields, & Description
 | Table | Field | Description |
 |-|-|-|
 | Line productivity (Fact table) | Date | Date the batch was produced |
