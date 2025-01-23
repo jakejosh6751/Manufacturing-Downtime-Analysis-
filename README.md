@@ -1,30 +1,29 @@
-# Manufacturing Downtime Analysis:
-## Optimizing Process Efficiency in Soda Bottling
+# Manufacturing Downtime Analysis in Soda Bottling
 ![Manufacturing Downtime_1.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime_1.jpg)
 ___
-### 1. Project Overview
+## 1. Project Overview
 Downtime in manufacturing refers to periods when production is halted, impacting efficiency, productivity, and profitability. It can stem from equipment failure, maintenance, operator, or supply chain issues, leading to significant operational costs.
 
 Analyzing downtime is crucial for identifying root causes, minimizing disruptions, and optimizing workflows. By addressing downtime effectively, companies can achieve higher production reliability and cost savings.
 
-#### 1.1 Objective
+### 1.1 Objective
 - Identify the root causes of downtime.
 - Propose actionable solutions to reduce downtime.
 - Optimize operational efficiency in manufacturing.
 
-#### 1.2 Deliverables
+### 1.2 Deliverables
 - Downtime summary report.
 - Visualizations highlighting downtime patterns and root causes.
 - Recommendations for process improvements.
 
-#### 1.3 Technology
+### 1.3 Technology
 - Power BI
 
-### 2. Data Preparation
-#### 2.1 Data Source
+## 2. Data Preparation
+### 2.1 Data Source
 - Maven Analytics free data sets: [data set](https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=Manu)
 
-#### 2.2 Data Tables, Fields, & Description
+### 2.2 Data Tables, Fields, & Description
 | Table | Field | Description |
 |-|-|-|
 | Line productivity (Fact table) | Date | Date the batch was produced |
@@ -46,7 +45,7 @@ Downtime factors (Dimension table) | Factor (Primary Key) | Unique ID for each d
 | | Description | Downtime factor description |
 | | Operator Error | Is this due to operator error? (Yes/No) |
 
-#### 2.3 Data Cleaning
+### 2.3 Data Cleaning
 * "Downtime factors" table
   - Changed column name 'Factor' to 'Downtime Factor'
 * "Line downtime" table
@@ -56,7 +55,7 @@ Downtime factors (Dimension table) | Factor (Primary Key) | Unique ID for each d
   - Unpivoted other columns except 'Batch'.
   - Renamed columns 'Attribute' to 'Downtime Factor', 'Value' to 'Downtime', and changed data types.
 
-#### 2.4 Data Modeling
+### 2.4 Data Modeling
 | 'Table'[Feature] 1 | 'Table'[Feature] 2 | Cardinality |
 |-|-|-|
 | 'Line productivity'[Batch] | 'Line downtime'[Batch] | One-to-One |
@@ -66,7 +65,7 @@ Downtime factors (Dimension table) | Factor (Primary Key) | Unique ID for each d
 - Power BI Model View
 ![manufacturing downtime model view.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20model%20view.jpg)
 
-#### 2.5 Data Transformation
+### 2.5 Data Transformation
 - Calculated Columns
 
 | Table | Calculated Column | Expression |
@@ -89,25 +88,25 @@ Downtime factors (Dimension table) | Factor (Primary Key) | Unique ID for each d
 | Planned Batch Time | SUM('Line productivity'[Minimum Batch Time]) |
 | Total Downtime | SUM('Line downtime'[Downtime]) |
 
-### 3. Data Exploration and Visualization
+## 3. Data Exploration and Visualization
 - Overall Line Efficiency, Actual Batch Time, Planned Batch Time, Total Downtime (card)
 - Breakdown of Downtime Causes (donut chart).
 - Top 5 Downtime Factors due to Operator Errors (heat map).
 - Top 5 factors that account for 80% of Total Downtime (combo line and column chart).
 - Efficiency by Operator (bar chart).
 
-### 4. Insights and Recommendations
-#### 4.1 Insights
+## 4. Insights and Recommendations
+### 4.1 Insights
 - Operators caused more downtime amongst other factors.
 - Batch change is major concern for Mac, and Machine adjustment  for other operators.
 - Top 5 factors account for 80% of Total Downtime. 3 of these (Machine adjustment, Batch change, and Batch coding error) are due to operator errors.
 - Operator Mac underperformed - below Overall Operators Efficiency.
 
-#### 4.2 Proposed Solutions
+### 4.2 Proposed Solutions
 - Provide batch change training for Mac, machine adjustment training for other operators, and batch coding training for everyone.
 - Leverage preventive maintenance schedules to minimize or predict machine failure.
 - Upgrade or replace aging equipment with high downtime (need more data to ascertain age of equipment).
 - Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.
 
-#### 4.3 Report Summary
+### 4.3 Report Summary
 ![Manufacturing Downtime_2.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime_2.jpg)
