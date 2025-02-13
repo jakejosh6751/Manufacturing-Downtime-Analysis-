@@ -18,7 +18,7 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 
 - ### Data Cleaning
 
-
+- ### Schema
 - ### Data Exploration
 
 
