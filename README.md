@@ -15,32 +15,17 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 ![Manufacturing Downtime_1.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime_1.jpg)
 ___
 
+## Report Summary
+![Manufacturing Downtime_2.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime_2.jpg)
 
-## 2. Data Preparation
-### 2.1 Data Source
-- Maven Analytics free data sets: [data set](https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=Manu)
+## Techniques & Procedures
 
-### 2.2 Data Tables, Fields, & Description
-| Table | Field | Description |
-|-|-|-|
-| Line productivity (Fact table) | Date | Date the batch was produced |
-| | Product (FK to Products) | ID for the product produced in the batch |
-| | Batch (Primary Key) | Unique ID for the batch produced |
-| | Operator | Production line operator in charge of the batch |
-| | Start Time | Time the batch production started |
-| | End Time | Time the batch production ended |
-| | | |
-Products (Dimension table) | Product (Primary Key) | Unique product ID |
-| | Flavor | Soda flavor for the product |
-| | Size | Product size (volume) |
-| | Min batch time | Minimum time required to produce a batch (with no downtime) |
-| | | |
-Line downtime (Pivoted Fact table) | Batch (Primary Key) | Unique ID for the batch produced |
-| | Downtime factor (FK to Downtime factors) | Downtime minutes for each factor ID (across columns) |
-| | | |
-Downtime factors (Dimension table) | Factor (Primary Key) | Unique ID for each downtime factor |
-| | Description | Downtime factor description |
-| | Operator Error | Is this due to operator error? (Yes/No) |
+## Project Fles
+
+
+
+
+
 
 ### 2.3 Data Cleaning
 * "Downtime factors" table
@@ -59,8 +44,6 @@ Downtime factors (Dimension table) | Factor (Primary Key) | Unique ID for each d
 | 'Products'[Product] | 'Line productivity'[Product] | One-to-Many |
 | 'Downtime factors'[Downtime Factor] | 'Line downtime'[Downtime Factor] | One-to-Many |
 
-- Power BI Model View
-![manufacturing downtime model view.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20model%20view.jpg)
 
 ### 2.5 Data Transformation
 - Calculated Columns
@@ -104,6 +87,3 @@ Downtime factors (Dimension table) | Factor (Primary Key) | Unique ID for each d
 - Leverage preventive maintenance schedules to minimize or predict machine failure.
 - Upgrade or replace aging equipment with high downtime (need more data to ascertain age of equipment).
 - Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.
-
-### 4.3 Report Summary
-![Manufacturing Downtime_2.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime_2.jpg)
