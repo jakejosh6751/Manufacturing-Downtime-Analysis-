@@ -10,7 +10,7 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 - Propose actionable solutions to reduce downtime.
 - Optimize operational efficiency in manufacturing.
 
-## Key Insights
+## Key Insights & Recommendations
 
 ![Manufacturing Downtime_2.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report.jpg)
 
