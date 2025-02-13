@@ -16,8 +16,10 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 
 ## Techniques & Procedures
 
- - # Data Cleaning
-### Data Exploration
+- ### Data Cleaning
+
+
+- ### Data Exploration
 
 
 
