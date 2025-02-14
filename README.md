@@ -32,7 +32,7 @@ I conducted a productivity and downtime analysis for a soda bottling production 
 Created relationships between tables in a snowflake schema, with two tables ("Products", "Line downtime") connected to a central table ("Line productivity") and a fourth table ("Downtime factors") linked to one of the two ("Line downtime"), enabling accurate data integration and analysis.
 
 #### Calculated Columns:
-Added some columns to enable calculation of Key Metrics;
+Used the RELATED, IF, INT, and DATEDIFF functions to create new columns to enhance data aggregation;
 * For the "Line downtime" table:
   - "Description"; and
   - "Operator error"
@@ -40,22 +40,15 @@ Added some columns to enable calculation of Key Metrics;
   - "Actual Batch Time": and
   - "Minimum Batch Time"
 
-
-
-# Calculated Columns
-| Table | Calculated Column | Expression |
-|-|-|-|
-| Line downtime | Description | RELATED('Downtime factors'[Description]) |
-| | Operator error | RELATED('Downtime factors'[Operator Error]) |
-| | | |
-| Line productivity | Actual Batch Time | IF(INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)<0, INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)+1440, INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)) |
-| | Minimum Batch Time | RELATED(Products[Min batch time]) |
-
-
-
-
-
 #### Key Measures:
+
+
+
+
+
+
+
+
 #### Data Exploration and Visualization:
 Insights were derived using the following visualizations in Power BI:
 
