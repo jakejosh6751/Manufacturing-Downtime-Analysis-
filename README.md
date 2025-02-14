@@ -41,18 +41,12 @@ Used the RELATED, IF, INT, and DATEDIFF functions to create new columns to enhan
   - "Minimum Batch Time"
 
 #### Key Measures:
-Used the ... functions to create Data Analysis Expressions to enhance creation of Key Metrics and charts. Key Measures Include;
+Used the CALCULATE, ALLSELECTED, SUMMARIZE, DIVIDE, SUM, SUMX, and FILTER functions to create Measures to enhance creation of Key Metrics and charts. Key Measures Include;
 - Overall Line Efficiency;
 - Overall Operators Efficiency;
 - Actual Batch Time;
 - Planned Batch Time; and
 - Total Downtime.
-
-
-
-
-
-
 
 #### Data Exploration and Visualization:
 Insights were derived using the following visualizations in Power BI:
@@ -62,15 +56,3 @@ Insights were derived using the following visualizations in Power BI:
 - **Heat map**: Top 5 Downtime Factors due to Operator Errors.
 - **Combo chart** (column & line): Top 5 factors that account for 80% of Total Downtime.
 - **Bar chart**: Efficiency by Operator.
-
-
-# Key Measures
-| Measure | Data Analysis Expression (DAX) |
-|-|-|
-|Actual Batch Time | SUM('Line productivity'[Actual Batch Time]) |
-| Down Time Pareto % | var _total = CALCULATE([Total Downtime], ALLSELECTED('Line downtime'[Description])), var _current = [Total Downtime], var _sumTable = SUMMARIZE(ALLSELECTED('Line downtime'), 'Line downtime'[Description], "DownTime", [Total Downtime]), var _cumulativeSum = SUMX(FILTER(_sumTable, [Total Downtime]>=_current), [Total Downtime]), RETURN DIVIDE(_cumulativeSum, _total) |
-| Operators Down Time | CALCULATE(SUM('Line downtime'[Downtime]), 'Line downtime'[Operator error]="Yes") | |
-| Overall Line Efficiency | DIVIDE(SUM('Line productivity'[Minimum Batch Time]), SUM('Line productivity'[Actual Batch Time]) , 0) |
-| Overall Operators Efficiency | var Total_Minimum_Batch_Time  = SUM('Line productivity'[Minimum Batch Time]), var Total_Actual_Batch_Time = SUM('Line productivity'[Actual Batch Time]), var None_Operator_Downtime = CALCULATE(SUM('Line downtime'[Downtime]), 'Line downtime'[Operator error]="No"), var Operators_Actual_Batch_Time = Total_Actual_Batch_Time - None_Operator_Downtime, RETURN DIVIDE(Total_Minimum_Batch_Time, Operators_Actual_Batch_Time, 0) |
-| Planned Batch Time | SUM('Line productivity'[Minimum Batch Time]) |
-| Total Downtime | SUM('Line downtime'[Downtime]) |
