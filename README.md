@@ -6,9 +6,14 @@ Downtime in manufacturing refers to periods of halted production due to equipmen
 I conducted a productivity and downtime analysis for a soda bottling production line, examining batch-level data that included operator performance, product type, start and end times, and downtime factors. This analysis helped identify key inefficiencies and opportunities for optimizing production workflows.
 
 ## Key Objectives
-- Identify the root causes of downtime.
-- Propose actionable solutions to reduce downtime.
-- Optimize operational efficiency in manufacturing.
+- **Downtime Analysis**: Identify and evaluate factors contributing to production halts.
+- **Productivity Assessment**: Analyze batch-level productivity metrics.
+- **Operator Performance**: Assess the impact of operator efficiency on production.
+- **Process Optimization**: Uncover opportunities to streamline workflows and reduce downtime.
+
+
+
+
 
 ## Key Insights & Recommendations
 
