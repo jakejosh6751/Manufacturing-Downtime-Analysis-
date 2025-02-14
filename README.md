@@ -35,11 +35,13 @@ All four tables contained in different sheets in one excel workbook were extract
 #### Calculated Columns:
 #### Key Measures:
 #### Data Exploration and Visualization:
-- Overall Line Efficiency, Actual Batch Time, Planned Batch Time, Total Downtime (card)
-- Breakdown of Downtime Causes (donut chart).
-- Top 5 Downtime Factors due to Operator Errors (heat map).
-- Top 5 factors that account for 80% of Total Downtime (combo line and column chart).
-- Efficiency by Operator (bar chart).
+Insights were derived using the following visualizations in Power BI:
+
+- Cards: Overall Line Efficiency, Actual Batch Time, Planned Batch Time, Total Downtime.
+- Doughnut chart: Breakdown of Downtime Causes.
+- Heat map: Top 5 Downtime Factors due to Operator Errors.
+- Combo chart (column & line): Top 5 factors that account for 80% of Total Downtime.
+- Bar chart: Efficiency by Operator.
 
 
 
