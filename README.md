@@ -42,7 +42,11 @@ Used the RELATED, IF, INT, and DATEDIFF functions to create new columns to enhan
 
 #### Key Measures:
 Used the ... functions to create Data Analysis Expressions to enhance creation of Key Metrics and charts. Key Measures Include;
-- 
+- Overall Line Efficiency;
+- Overall Operators Efficiency;
+- Actual Batch Time;
+- Planned Batch Time; and
+- Total Downtime.
 
 
 
