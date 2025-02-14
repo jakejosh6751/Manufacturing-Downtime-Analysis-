@@ -29,7 +29,7 @@ I conducted a productivity and downtime analysis for a soda bottling production 
   - Renamed "Attribute" to "Downtime Factor" and "Value" to "Downtime",  then adjusted data types accordingly.
 
 #### Data Modeling:
-Created relationships between tables in a snowflake schema, with two tables connected to a central table and a fourth table linked to one of the two, enabling accurate data integration and analysis.
+Created relationships between tables in a snowflake schema, with two tables ("Products", "Line downtime") connected to a central table ("Line productivity") and a fourth ("Downtime factors") table linked to one of the two ("Line downtime"), enabling accurate data integration and analysis.
 
 
 
