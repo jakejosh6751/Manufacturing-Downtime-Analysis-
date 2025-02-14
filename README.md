@@ -17,7 +17,7 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 ## Techniques & Procedures
 
 #### Data Cleaning:
-All four tables contained in different sheets in one excel workbook were extracted into Power BI.
+All four tables contained in different sheets in one excel workbook were extracted and loaded in Power BI.
 * "Downtime factors" table
   - Changed column name 'Factor' to 'Downtime Factor'
 * "Line downtime" table
