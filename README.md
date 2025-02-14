@@ -32,12 +32,12 @@ I conducted a productivity and downtime analysis for a soda bottling production 
 Created relationships between tables in a snowflake schema, with two tables ("Products", "Line downtime") connected to a central table ("Line productivity") and a fourth table ("Downtime factors") linked to one of the two ("Line downtime"), enabling accurate data integration and analysis.
 
 #### Calculated Columns:
-Used the RELATED, IF, INT, and DATEDIFF functions to create new columns to enhance data aggregation;
+Used the RELATED, IF, INT, and DATEDIFF functions to create new columns for enhanced data aggregation;
 * For the "Line downtime" table:
-  - "Description"; and
+  - "Description"
   - "Operator error"
 * For the "Line productivity" table:
-  - "Actual Batch Time": and
+  - "Actual Batch Time"
   - "Minimum Batch Time"
 
 #### Key Measures:
