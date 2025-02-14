@@ -37,7 +37,7 @@ All four tables contained in different sheets in one excel workbook were extract
 #### Data Exploration and Visualization:
 Insights were derived using the following visualizations in Power BI:
 
-- Cards: Key Performance Indicators:– Overall Line Efficiency, Actual Batch Time, Planned Batch Time, Total Downtime.
+- Cards: Key Performance Indicators:- Overall Line Efficiency, Actual Batch Time, Planned Batch Time, Total Downtime.
 - Doughnut chart: Breakdown of Downtime Causes.
 - Heat map: Top 5 Downtime Factors due to Operator Errors.
 - Combo chart (column & line): Top 5 factors that account for 80% of Total Downtime.
