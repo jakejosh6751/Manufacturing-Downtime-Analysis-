@@ -16,7 +16,7 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 
 ## Techniques & Procedures
 
-- ### Data Cleaning
+### Data Cleaning:
 * "Downtime factors" table
   - Changed column name 'Factor' to 'Downtime Factor'
 * "Line downtime" table
