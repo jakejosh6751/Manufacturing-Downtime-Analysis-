@@ -25,7 +25,10 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
   - Replaced null values in column '1' with 0. This is to ensure the downtime description 'Emergency stop' represented by 1 appears in visuals.
   - Unpivoted other columns except 'Batch'.
   - Renamed columns 'Attribute' to 'Downtime Factor', 'Value' to 'Downtime', and changed data types.
+
 - ### Schema
+- There are 4 tables related by snowflake schema.
+
 - ### Data Exploration
 
 
