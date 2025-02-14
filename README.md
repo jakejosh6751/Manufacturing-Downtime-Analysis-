@@ -32,6 +32,7 @@ I conducted a productivity and downtime analysis for a soda bottling production 
 Created relationships between tables in a snowflake schema, with two tables ("Products", "Line downtime") connected to a central table ("Line productivity") and a fourth table ("Downtime factors") linked to one of the two ("Line downtime"), enabling accurate data integration and analysis.
 
 #### Calculated Columns:
+Added some columns to enable calculation of Key Metrics;
 * For the "Line downtime" table:
   - "Description"; and
   - "Operator error"
