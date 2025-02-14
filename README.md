@@ -41,12 +41,13 @@ Used the RELATED, IF, INT, and DATEDIFF functions to create new columns for enha
   - "Minimum Batch Time"
 
 #### Key Measures:
-Used the CALCULATE, ALLSELECTED, SUMMARIZE, DIVIDE, SUM, SUMX, and FILTER functions to create Measures to enhance creation of Key Metrics and charts. Key Measures Include;
-- Overall Line Efficiency;
-- Overall Operators Efficiency;
-- Actual Batch Time;
-- Planned Batch Time; and
-- Total Downtime.
+Utilized the CALCULATE, ALLSELECTED, SUMMARIZE, DIVIDE, SUM, SUMX, and FILTER functions to create measures for key metrics and visualizations:
+- "Overall Line Efficiency"
+- "Overall Operators Efficiency"
+- "Actual Batch Time"
+- "Planned Batch Time"
+- "Total Downtime"
+
 
 #### Data Exploration and Visualization:
 Insights were derived using the following visualizations in Power BI:
