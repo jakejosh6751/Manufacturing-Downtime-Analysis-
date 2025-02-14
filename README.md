@@ -33,18 +33,20 @@ All four tables contained in different sheets in one excel workbook were extract
 - Dimension tables...
 
 #### Calculated Columns:
-#### Data Analysis Expressions:
-#### Data Exploration:
+#### Key Measures:
+#### Data Exploration and Visualization:
+- Overall Line Efficiency, Actual Batch Time, Planned Batch Time, Total Downtime (card)
+- Breakdown of Downtime Causes (donut chart).
+- Top 5 Downtime Factors due to Operator Errors (heat map).
+- Top 5 factors that account for 80% of Total Downtime (combo line and column chart).
+- Efficiency by Operator (bar chart).
 
 
 
 
 
 
-
-### 2.5 Data Transformation
-- Calculated Columns
-
+# Calculated Columns
 | Table | Calculated Column | Expression |
 |-|-|-|
 | Line downtime | Description | RELATED('Downtime factors'[Description]) |
@@ -53,8 +55,7 @@ All four tables contained in different sheets in one excel workbook were extract
 | Line productivity | Actual Batch Time | IF(INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)<0, INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)+1440, INT(DATEDIFF('Line productivity'[Start Time], 'Line productivity'[End Time], SECOND)/60)) |
 | | Minimum Batch Time | RELATED(Products[Min batch time]) |
 
-- Key Measures
-
+# Key Measures
 | Measure | Data Analysis Expression (DAX) |
 |-|-|
 |Actual Batch Time | SUM('Line productivity'[Actual Batch Time]) |
@@ -65,12 +66,7 @@ All four tables contained in different sheets in one excel workbook were extract
 | Planned Batch Time | SUM('Line productivity'[Minimum Batch Time]) |
 | Total Downtime | SUM('Line downtime'[Downtime]) |
 
-## 3. Data Exploration and Visualization
-- Overall Line Efficiency, Actual Batch Time, Planned Batch Time, Total Downtime (card)
-- Breakdown of Downtime Causes (donut chart).
-- Top 5 Downtime Factors due to Operator Errors (heat map).
-- Top 5 factors that account for 80% of Total Downtime (combo line and column chart).
-- Efficiency by Operator (bar chart).
+
 
 ## 4. Insights and Recommendations
 ### 4.1 Insights
