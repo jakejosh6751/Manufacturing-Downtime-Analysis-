@@ -41,7 +41,8 @@ Used the RELATED, IF, INT, and DATEDIFF functions to create new columns to enhan
   - "Minimum Batch Time"
 
 #### Key Measures:
-
+Used the ... functions to create Data Analysis Expressions to enhance creation of Key Metrics and charts. Key Measures Include;
+- 
 
 
 
@@ -57,12 +58,6 @@ Insights were derived using the following visualizations in Power BI:
 - **Heat map**: Top 5 Downtime Factors due to Operator Errors.
 - **Combo chart** (column & line): Top 5 factors that account for 80% of Total Downtime.
 - **Bar chart**: Efficiency by Operator.
-
-
-
-
-
-
 
 
 # Key Measures
