@@ -50,10 +50,10 @@ Utilized the CALCULATE, ALLSELECTED, SUMMARIZE, DIVIDE, SUM, SUMX, and FILTER fu
 
 
 #### Data Exploration and Visualization:
-Insights were derived using the following visualizations in Power BI:
+Derived insights using the following visualizations in Power BI:
 
-- **Cards**: Key Measures.
-- **Doughnut chart**: Breakdown of Downtime Causes.
-- **Heat map**: Top 5 Downtime Factors due to Operator Errors.
-- **Column & Line Combo chart** : Top 5 factors that account for 80% of Total Downtime.
-- **Bar chart**: Efficiency by Operator.
+- **Cards**: Displayed Key Measures.
+- **Doughnut Chart**: Showed the breakdown of downtime causes.
+- **Heat Map**: Highlighted the top 5 downtime factors due to operator errors.
+- **Column & Line Combo Chart** : Visualized the top 5 factors contributing to 80% of total downtime.
+- **Bar Chart**: Illustrated efficiency by operator.
