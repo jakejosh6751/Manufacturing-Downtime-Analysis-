@@ -29,8 +29,10 @@ All four tables contained in different sheets in one excel workbook were extract
 
 #### Schema:
 - Tables are related by snowflake schema.
-- 
+- fact table... rows, columns
+- Dimension tables...
 
+#### Calculated Columns:
 #### Data Analysis Expressions:
 #### Data Exploration:
 
@@ -38,15 +40,6 @@ All four tables contained in different sheets in one excel workbook were extract
 
 
 
-
-
-
-### 2.4 Data Modeling
-| 'Table'[Feature] 1 | 'Table'[Feature] 2 | Cardinality |
-|-|-|-|
-| 'Line productivity'[Batch] | 'Line downtime'[Batch] | One-to-One |
-| 'Products'[Product] | 'Line productivity'[Product] | One-to-Many |
-| 'Downtime factors'[Downtime Factor] | 'Line downtime'[Downtime Factor] | One-to-Many |
 
 
 ### 2.5 Data Transformation
