@@ -12,7 +12,7 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 
 ## Key Insights & Recommendations
 
-![Manufacturing Downtime_2.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report.jpg)
+![manufacturing downtime report_2.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report_2.jpg)
 
 ## Techniques & Procedures
 
