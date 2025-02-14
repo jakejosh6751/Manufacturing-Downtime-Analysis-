@@ -17,6 +17,7 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 ## Techniques & Procedures
 
 #### Data Cleaning:
+All four tables contained in different sheets in one excel workbook were extracted into Power BI.
 * "Downtime factors" table
   - Changed column name 'Factor' to 'Downtime Factor'
 * "Line downtime" table
@@ -27,7 +28,7 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
   - Renamed columns 'Attribute' to 'Downtime Factor', 'Value' to 'Downtime', and changed data types.
 
 #### Schema:
-- There are 4 tables related by snowflake schema.
+- Tables are related by snowflake schema.
 - 
 
 #### Data Analysis Expressions:
