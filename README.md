@@ -51,8 +51,8 @@ Used the CALCULATE, ALLSELECTED, SUMMARIZE, DIVIDE, SUM, SUMX, and FILTER functi
 #### Data Exploration and Visualization:
 Insights were derived using the following visualizations in Power BI:
 
-- **Cards**: Key Performance Indicators:- Overall Line Efficiency, Actual Batch Time, Planned Batch Time, Total Downtime.
+- **Cards**: Key Measures.
 - **Doughnut chart**: Breakdown of Downtime Causes.
 - **Heat map**: Top 5 Downtime Factors due to Operator Errors.
-- **Combo chart** (column & line): Top 5 factors that account for 80% of Total Downtime.
+- **Column & Line Combo chart** : Top 5 factors that account for 80% of Total Downtime.
 - **Bar chart**: Efficiency by Operator.
