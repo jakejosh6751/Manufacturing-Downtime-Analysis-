@@ -17,16 +17,6 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
 ## Techniques & Procedures
 
 - ### Data Cleaning
-
-- ### Schema
-- ### Data Exploration
-
-
-
-
-
-
-### 2.3 Data Cleaning
 * "Downtime factors" table
   - Changed column name 'Factor' to 'Downtime Factor'
 * "Line downtime" table
@@ -35,6 +25,15 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
   - Replaced null values in column '1' with 0. This is to ensure the downtime description 'Emergency stop' represented by 1 appears in visuals.
   - Unpivoted other columns except 'Batch'.
   - Renamed columns 'Attribute' to 'Downtime Factor', 'Value' to 'Downtime', and changed data types.
+- ### Schema
+- ### Data Exploration
+
+
+
+
+
+
+
 
 ### 2.4 Data Modeling
 | 'Table'[Feature] 1 | 'Table'[Feature] 2 | Cardinality |
