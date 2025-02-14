@@ -11,26 +11,29 @@ I conducted a productivity and downtime analysis for a soda bottling production 
 - **Operator Performance**: Assess the impact of operator efficiency on production.
 - **Process Optimization**: Uncover opportunities to streamline workflows and reduce downtime.
 
-
-
-
-
 ## Key Insights & Recommendations
 
 ![manufacturing downtime report_2.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report_2.jpg)
 
 ## Techniques & Procedures
 
-#### Data Cleaning:
-All four tables contained in different sheets in one excel workbook were extracted and loaded in Power BI.
-* "Downtime factors" table
-  - Changed column name 'Factor' to 'Downtime Factor'
-* "Line downtime" table
-  - Removed first row: has only one column title (Downtime factor) representing multiple parameters.
-  - Promoted first row to headers.
-  - Replaced null values in column '1' with 0. This is to ensure the downtime description 'Emergency stop' represented by 1 appears in visuals.
-  - Unpivoted other columns except 'Batch'.
-  - Renamed columns 'Attribute' to 'Downtime Factor', 'Value' to 'Downtime', and changed data types.
+#### Data Cleaning Process:
+
+* Extracted and loaded all four tables from separate sheets in one Excel workbook into Power BI.
+* For the "Downtime factors" table, renamed the "Factor" column to "Downtime Factor".
+* For the "Line downtime" table:
+  - Removed the first row containing a single title that represented multiple parameters.
+  - Promoted the new first row to headers.
+  - Replaced null values in the "1" column with 0 to ensure the "Emergency stop" downtime description is accurately displayed in visuals.
+  - Unpivoted all columns except "Batch".
+  - Renamed "Attribute" to "Downtime Factor" and "Value" to "Downtime",  then adjusted data types accordingly.
+
+
+
+
+
+
+
 
 #### Schema:
 - Tables are related by snowflake schema.
