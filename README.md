@@ -28,17 +28,10 @@ I conducted a productivity and downtime analysis for a soda bottling production 
   - Unpivoted all columns except "Batch".
   - Renamed "Attribute" to "Downtime Factor" and "Value" to "Downtime",  then adjusted data types accordingly.
 
+#### Data Modeling:
+Created relationships between tables in a snowflake schema, with two tables connected to a central table and a fourth table linked to one of the two, enabling accurate data integration and analysis.
 
 
-
-
-
-
-
-#### Schema:
-- Tables are related by snowflake schema.
-- fact table... rows, columns
-- Dimension tables...
 
 #### Calculated Columns:
 #### Key Measures:
