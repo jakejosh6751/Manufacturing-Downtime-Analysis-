@@ -65,18 +65,3 @@ All four tables contained in different sheets in one excel workbook were extract
 | Overall Operators Efficiency | var Total_Minimum_Batch_Time  = SUM('Line productivity'[Minimum Batch Time]), var Total_Actual_Batch_Time = SUM('Line productivity'[Actual Batch Time]), var None_Operator_Downtime = CALCULATE(SUM('Line downtime'[Downtime]), 'Line downtime'[Operator error]="No"), var Operators_Actual_Batch_Time = Total_Actual_Batch_Time - None_Operator_Downtime, RETURN DIVIDE(Total_Minimum_Batch_Time, Operators_Actual_Batch_Time, 0) |
 | Planned Batch Time | SUM('Line productivity'[Minimum Batch Time]) |
 | Total Downtime | SUM('Line downtime'[Downtime]) |
-
-
-
-## 4. Insights and Recommendations
-### 4.1 Insights
-- Operators caused more downtime amongst other factors.
-- Batch change is major concern for Mac, and Machine adjustment  for other operators.
-- Top 5 factors account for 80% of Total Downtime. 3 of these (Machine adjustment, Batch change, and Batch coding error) are due to operator errors.
-- Operator Mac underperformed - below Overall Operators Efficiency.
-
-### 4.2 Proposed Solutions
-- Provide batch change training for Mac, machine adjustment training for other operators, and batch coding training for everyone.
-- Leverage preventive maintenance schedules to minimize or predict machine failure.
-- Upgrade or replace aging equipment with high downtime (need more data to ascertain age of equipment).
-- Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.
