@@ -27,7 +27,7 @@ Analyzing downtime is crucial for identifying root causes, minimizing disruption
   - Renamed columns 'Attribute' to 'Downtime Factor', 'Value' to 'Downtime', and changed data types.
 
 - ### Schema
-- There are 4 tables related by snowflake schema.
+ - There are 4 tables related by snowflake schema.
 
 - ### Data Exploration
 
