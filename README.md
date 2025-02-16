@@ -1,4 +1,4 @@
-# Manufacturing Downtime Analysis in Soda Bottling
+![manufacturing downtime report_1.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report_1.jpg)
 
 ## Project Overview
 Downtime in manufacturing refers to periods of halted production due to equipment failure, maintenance, operator errors, or supply chain issues, leading to reduced efficiency and profitability. Analyzing downtime is essential for identifying root causes, minimizing disruptions, and streamlining workflows. Effective downtime management enhances production reliability and drives cost savings, ultimately boosting operational performance.
