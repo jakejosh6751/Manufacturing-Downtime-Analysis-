@@ -1,4 +1,4 @@
-# Manufacturing Downtime Analysis in Soda Bottling
+# Manufacturing Downtime Analysis
 
 ![manufacturing downtime report_1.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report_1.jpg)
 
