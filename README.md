@@ -6,10 +6,10 @@
 Analyzed soda bottling production line data to identify causes of downtime such as machine faults, operator errors, and product changeovers. Suggested ways to reduce delays and improve production speed.
 
 ## Key Objectives
-- **Downtime Analysis**: Identify and evaluate factors contributing to production halts.
-- **Productivity Assessment**: Analyze batch-level productivity metrics.
-- **Operator Performance**: Assess the impact of operator efficiency on production.
-- **Process Optimization**: Uncover opportunities to streamline workflows and reduce downtime.
+- Identify and evaluate factors contributing to production halts.
+- Analyze batch-level productivity metrics.
+- Assess the impact of operator efficiency on production.
+- Uncover opportunities to streamline workflows and reduce downtime.
 
 ## Key Insights & Recommendations
 
