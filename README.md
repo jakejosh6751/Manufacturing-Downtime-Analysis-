@@ -3,9 +3,8 @@
 ![manufacturing downtime report_1.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report_1.jpg)
 
 ## Project Overview
-Downtime in manufacturing refers to periods of halted production due to equipment failure, maintenance, operator errors, or supply chain issues, leading to reduced efficiency and profitability. Analyzing downtime is essential for identifying root causes, minimizing disruptions, and streamlining workflows. Effective downtime management enhances production reliability and drives cost savings, ultimately boosting operational performance.
-
-I conducted a productivity and downtime analysis for a soda bottling production line, examining batch-level data that included operator performance, product type, start and end times, and downtime factors. This analysis helped identify key inefficiencies and opportunities for optimizing production workflows.
+Manufacturing Downtime Analysis
+Analyzed soda bottling production data to identify causes of downtime such as machine faults, operator errors, and product changeovers. Suggested ways to reduce delays and improve production speed.
 
 ## Key Objectives
 - **Downtime Analysis**: Identify and evaluate factors contributing to production halts.
