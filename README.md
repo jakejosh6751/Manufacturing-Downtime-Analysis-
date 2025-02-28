@@ -3,7 +3,6 @@
 ![manufacturing downtime report_1.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report_1.jpg)
 
 ## Project Overview
-Manufacturing Downtime Analysis
 Analyzed soda bottling production data to identify causes of downtime such as machine faults, operator errors, and product changeovers. Suggested ways to reduce delays and improve production speed.
 
 ## Key Objectives
