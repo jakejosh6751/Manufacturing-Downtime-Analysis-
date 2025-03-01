@@ -11,7 +11,7 @@ Analyzed soda bottling production line data to identify causes of downtime such 
 ![manufacturing downtime report_1.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report_1.jpg)
 
 ## Recommendations
-![manufacturing downtime report_2.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report_2.jpg)
+
 
 ## Techniques & Procedures
 
