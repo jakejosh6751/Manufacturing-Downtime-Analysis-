@@ -2,7 +2,7 @@
 Analyzed soda bottling production line data and identified causes of downtime, including machine faults, operator errors, and product changeovers.
 
 ## Key Insights
-![manufacturing downtime report.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report_1.jpg)
+![manufacturing downtime report.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report.jpg)
 
 ## Recommendations
 1. Provide batch change training for Mac and machine adjustment training for other operators.
