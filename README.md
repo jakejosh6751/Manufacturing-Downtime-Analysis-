@@ -6,7 +6,13 @@
 Analyzed soda bottling production line data to identify causes of downtime such as machine faults, operator errors, and product changeovers.
 
 ## Recommendations
+1) Provide batch change training for Mac and machine adjustment training for other operators.
 
+2) Leverage preventive maintenance schedules to minimize or predict machine failure.
+
+3) Upgrade or replace aging equipment with high downtime (need more data to ascertain age of equipment).
+
+4) Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.
 
 ## Techniques & Procedures
 
