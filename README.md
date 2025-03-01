@@ -1,14 +1,9 @@
 # Manufacturing Downtime Analysis
-Analyzed soda bottling production line data to identify causes of downtime such as machine faults, operator errors, and product changeovers. Suggested ways to reduce delays and improve production speed.
-
-## Key Objectives
-- Identify factors contributing to production halts.
-- Evaluate batch-level productivity metrics.
-- Assess the impact of operator efficiency on production.
-- Uncover opportunities to streamline workflows and reduce downtime.
 
 ## Key Insights
 ![manufacturing downtime report_1.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report_1.jpg)
+
+Analyzed soda bottling production line data to identify causes of downtime such as machine faults, operator errors, and product changeovers. Suggested ways to reduce delays and improve production speed.
 
 ## Recommendations
 
