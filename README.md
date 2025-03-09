@@ -5,6 +5,9 @@ Analyzed soda bottling production line data to identify key causes of downtime, 
 ## Key Insights
 ![manufacturing downtime report.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report.jpg)
 
+- Operators were the leading cause of downtime.
+
+
 ## Recommendations
 1. Provide batch change training for Mac and machine adjustment training for other operators.
 2. Leverage preventive maintenance schedules to minimize or predict machine failure.
