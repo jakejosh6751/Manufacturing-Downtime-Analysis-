@@ -18,7 +18,7 @@ Analyzed soda bottling production line data to identify key causes of downtime, 
 
 ## Techniques & Procedures
 
-#### Data Cleaning Process:
+#### Data Import Cleaning:
 
 * Extracted and loaded all four tables from separate sheets in one Excel workbook into Power BI.
 * For the "Downtime factors" table, renamed the "Factor" column to "Downtime Factor".
