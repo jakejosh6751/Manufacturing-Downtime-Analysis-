@@ -1,5 +1,5 @@
 # Manufacturing Downtime Analysis
-Analyzed soda bottling production line data. Identified key causes of downtime, including machine faults, operator errors, and product changeovers, enabling targeted improvements in operational efficiency.
+Analyzed soda bottling production line data. Identified key causes of downtime, enabling targeted improvements in operational efficiency.
 
 
 ## Key Insights
