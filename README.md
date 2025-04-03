@@ -3,6 +3,7 @@ Analyzed soda bottling production line data. Identified key causes of downtime, 
 
 ![manufacturing downtime report.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report.jpg)
 
+## Key Insights
 - Operators were the leading cause of downtime.
 - Mac's downtime is mainly due to batch changes, while other operators struggle with machine adjustments.
 - Five factors cause 80% of downtime; three are linked to operator errors.
