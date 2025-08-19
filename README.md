@@ -1,7 +1,8 @@
 # Manufacturing Downtime Analysis
-Analyzed soda bottling production line data. Identified key causes of downtime, enabling targeted improvements in operational efficiency.
 
 ![manufacturing downtime report.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report.jpg)
+
+Analyzed soda bottling production line data. Identified key causes of downtime, enabling targeted improvements in operational efficiency.
 
 ## Key Insights
 - Operators were the leading cause of downtime.
