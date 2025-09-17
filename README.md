@@ -1,4 +1,4 @@
-# Manufacturing Downtime Analysis with Power BI
+# Manufacturing Downtime Report with Power BI Dashboard
 
 ![manufacturing downtime report.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report.jpg)
 
