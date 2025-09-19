@@ -1,5 +1,17 @@
 # Manufacturing Downtime Report with Power BI Dashboard
 
+## Executive Summary:
+
+### Business Problem:
+
+### Methodology:
+
+### Skillls:
+
+### Insights & Recommendation:
+
+
+
 ![manufacturing downtime report.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report.jpg)
 
 Analyzed soda bottling production line data. Identified key causes of downtime, enabling targeted improvements in operational efficiency.
