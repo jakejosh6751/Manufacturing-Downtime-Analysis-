@@ -41,7 +41,7 @@ For manufacturing companies, downtime directly impacts output and profitability.
   Upgrade or replace aging equipment with high downtime (need more data to ascertain age of equipment).
 
 ## Additional Project Materials
-- Dashboard
+- Power BI Report
 ![manufacturing downtime report.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report.jpg)
 
 - Data Dictionary
