@@ -1,12 +1,20 @@
 # Manufacturing Downtime Analysis
 
 ## Executive Summary:
+Using SQL, Python, and Power BI, I analysed soda bottling production line data to identify the main causes of downtime. The analysis revealed that operator errors and batch changes account for most of the inefficiencies. Based on these findings, I recommend targeted operator training, improved maintenance schedules, and upgrades to high-downtime equipment to boost operational efficiency.
 
 ### Business Problem:
+For manufacturing companies, downtime directly impacts output and profitability. In this soda bottling plant, management noticed frequent production delays but lacked clear insights into the main causes. The goal was to analyse downtime data to identify key drivers and propose actionable strategies to reduce downtime.
 
 ### Methodology:
+1. Extracted and cleaned downtime records from the production line database using SQL.
+2. Modelled and visualised downtime data in Power BI to compare operators, machines, and downtime causes.
+3. Used Python (pandas, numpy, seaborn, matplotlib) for detailed statistical analysis to quantify downtime distribution and identify critical drivers.
 
 ### Skills:
+- SQL: Joins, CTEs, CASE statements, filtering, grouping, aggregation
+- Power BI: Data modelling, DAX measures, calculated columns, interactive dashboard design, ETL
+- Python: pandas, numpy, matplotlib, seaborn, statistics, funnel-style root cause analysis
 
 ### Insights & Recommendation:
 
