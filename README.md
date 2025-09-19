@@ -1,4 +1,4 @@
-# Manufacturing Downtime Report with Power BI Dashboard
+# Manufacturing Downtime Report
 
 ## Executive Summary:
 
