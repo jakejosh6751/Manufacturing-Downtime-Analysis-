@@ -6,7 +6,7 @@
 
 ### Methodology:
 
-### Skillls:
+### Skills:
 
 ### Insights & Recommendation:
 
