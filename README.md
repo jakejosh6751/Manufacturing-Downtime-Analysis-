@@ -35,3 +35,8 @@ Analyzed soda bottling production line data. Identified key causes of downtime, 
 2. Leverage preventive maintenance schedules to minimize or predict machine failure.
 3. Upgrade or replace aging equipment with high downtime (need more data to ascertain age of equipment).
 4. Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.
+
+## Additional Project Files
+- Data Dictionary
+- 
+
