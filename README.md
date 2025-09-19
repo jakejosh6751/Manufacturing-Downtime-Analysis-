@@ -21,17 +21,17 @@ For manufacturing companies, downtime directly impacts output and profitability.
 - Operators were the leading cause of downtime.
   - Provide targeted operator training and clear standard operating procedures (SOPs) to reduce errors.
 
-2. What drives downtime across operators?
+**2. What drives downtime across operators?**
 - Mac's downtime is mainly due to batch changes, while other operators struggle with machine adjustments.
   -  Prioritize batch change training for Mac and machine adjustment training for other operators.
   
-3. Which factors account for most of the downtime?
+**3. Which factors account for most of the downtime?**
 - Five factors cause 80% of downtime; three are linked to operator errors.
   - *Machine adjustment, Batch change, and Batch coding*: Provide training for operators.
   - *Machine Failure*: Leverage preventive maintenance schedules to minimize or predict machine failure.
   - *Inventory Shortage*: Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.
 
-4. How efficient are the operators overall?
+**4. How efficient are the operators overall?**
 - Mac's efficiency is slightly below the overall average of all operators.
 
 ### Additional Recommendation:
