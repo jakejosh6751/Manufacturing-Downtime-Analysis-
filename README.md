@@ -17,7 +17,7 @@ For manufacturing companies, downtime directly impacts output and profitability.
 - Python: pandas, numpy, matplotlib, seaborn, statistics, funnel-style root cause analysis
 
 ### Insights & Recommendation
-1. What is the leading cause of downtime between operator and non-operator sources?
+**1. What is the leading cause of downtime between operator and non-operator sources?**
 - Operators were the leading cause of dodowntime.
 - Provide batch change training for Mac and machine adjustment training for other operators.
 
