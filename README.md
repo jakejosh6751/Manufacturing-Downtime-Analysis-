@@ -26,7 +26,7 @@ Analyzed soda bottling production line data. Identified key causes of downtime, 
 
 ## Key Insights
 1. Operators were the leading cause of dodowntime.
--- Provide batch change training for Mac and machine adjustment training for other operators.
+- Provide batch change training for Mac and machine adjustment training for other operators.
 
 2. Mac's downtime is mainly due to batch changes, while other operators struggle with machine adjustments.
 3. Five factors cause 80% of downtime; three are linked to operator errors.
