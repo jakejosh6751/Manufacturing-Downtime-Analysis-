@@ -28,7 +28,9 @@ For manufacturing companies, downtime directly impacts output and profitability.
 3. Which factors account for most of the downtime?
 - Five factors cause 80% of downtime; three are linked to operator errors.
 > *Machine adjustment, Batch change, and Batch coding*: Provide training for operators.
+
 > *Machine Failure*: Leverage preventive maintenance schedules to minimize or predict machine failure.
+
 > *Inventory Shortage*: Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.
 
 4. How efficient are the operators overall?
