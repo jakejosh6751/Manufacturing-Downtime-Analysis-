@@ -28,17 +28,12 @@ For manufacturing companies, downtime directly impacts output and profitability.
 **3. Which factors account for most of the downtime?**
 > Five factors cause 80% of downtime; three are linked to operator errors.
 - **Machine adjustment, Batch change, and Batch coding**: *Provide targeted training for operators.*
-- **Machine Failure**: *Leverage preventive maintenance schedules to minimize or predict machine failure.*
+- **Machine Failure**: *Leverage preventive maintenance schedules to minimize or predict machine failure. Additionally, Upgrade or replace aging equipment with high downtime (need more data to ascertain age of equipment).*
 - **Inventory Shortage**: *Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.*
 
 **4. How efficient are the operators overall?**
 > Mac's efficiency is slightly below the overall average of all operators.
 - *Provide Mac with focused coaching on batch changes to raise efficiency to peer level.*
-
-### What actions can reduce downtime and improve efficiency?
-- Training, preventive maintenance, equipment upgrades, and real-time tracking.
-
-  Upgrade or replace aging equipment with high downtime (need more data to ascertain age of equipment).
 
 ## Additional Project Materials
 - Power BI Report
