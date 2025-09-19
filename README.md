@@ -18,8 +18,8 @@ For manufacturing companies, downtime directly impacts output and profitability.
 
 ### Insights & Recommendation
 **1. What is the leading cause of downtime between operator and non-operator sources?**
-  > Operators were the leading cause of downtime.
-  - Provide targeted operator training and clear standard operating procedures (SOPs) to reduce errors.
+> Operators were the leading cause of downtime.
+- Provide targeted operator training and clear standard operating procedures (SOPs) to reduce errors.
 
 **2. What drives downtime across operators?**
 - Mac's downtime is mainly due to batch changes, while other operators struggle with machine adjustments.
