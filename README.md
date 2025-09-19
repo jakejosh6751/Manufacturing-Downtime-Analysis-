@@ -24,19 +24,28 @@ For manufacturing companies, downtime directly impacts output and profitability.
 
 Analyzed soda bottling production line data. Identified key causes of downtime, enabling targeted improvements in operational efficiency.
 
-## Key Insights
-1. Operators were the leading cause of dodowntime.
+## Insights & Recommendation
+1. What is the leading cause of downtime between operator and non-operator sources?
+- Operators were the leading cause of dodowntime.
 - Provide batch change training for Mac and machine adjustment training for other operators.
 
-2. Mac's downtime is mainly due to batch changes, while other operators struggle with machine adjustments.
-3. Five factors cause 80% of downtime; three are linked to operator errors.
-4. Mac's efficiency is slightly below the overall average of all operators.
+2. hahaha
+- Mac's downtime is mainly due to batch changes, while other operators struggle with machine adjustments.
+- Leverage preventive maintenance schedules to minimize or predict machine failure.
+  
+3. hhhh
+- Five factors cause 80% of downtime; three are linked to operator errors.
+- Upgrade or replace aging equipment with high downtime (need more data to ascertain age of equipment).
+  
+4.
+- Mac's efficiency is slightly below the overall average of all operators.
+- Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.
 
-## Recommendation
-Provide batch change training for Mac and machine adjustment training for other operators.
-2. Leverage preventive maintenance schedules to minimize or predict machine failure.
-3. Upgrade or replace aging equipment with high downtime (need more data to ascertain age of equipment).
-4. Implement real-time tracking systems or forecasting methods to maintain optimal stock levels.
+
+
+
+
+
 
 ## Additional Project Files
 - Data Dictionary
