@@ -16,15 +16,7 @@ For manufacturing companies, downtime directly impacts output and profitability.
 - Power BI: Data modelling, DAX measures, calculated columns, interactive dashboard design, ETL
 - Python: pandas, numpy, matplotlib, seaborn, statistics, funnel-style root cause analysis
 
-### Insights & Recommendation:
-
-
-
-![manufacturing downtime report.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report.jpg)
-
-Analyzed soda bottling production line data. Identified key causes of downtime, enabling targeted improvements in operational efficiency.
-
-## Insights & Recommendation
+### Insights & Recommendation
 1. What is the leading cause of downtime between operator and non-operator sources?
 - Operators were the leading cause of dodowntime.
 - Provide batch change training for Mac and machine adjustment training for other operators.
@@ -45,9 +37,9 @@ Analyzed soda bottling production line data. Identified key causes of downtime, 
 
 
 
-
-
-## Additional Project Files
+## Additional Project Materials
+- Dashboard
+![manufacturing downtime report.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis-/blob/main/manufacturing%20downtime%20report.jpg)
 - Data Dictionary
 - 
 
