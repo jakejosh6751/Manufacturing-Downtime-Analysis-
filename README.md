@@ -37,6 +37,7 @@ For manufacturing companies, downtime directly impacts output and profitability.
 
 ### What actions can reduce downtime and improve efficiency?
 - Training, preventive maintenance, equipment upgrades, and real-time tracking.
+
   Upgrade or replace aging equipment with high downtime (need more data to ascertain age of equipment).
 
 ## Additional Project Materials
