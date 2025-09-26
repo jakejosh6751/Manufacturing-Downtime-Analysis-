@@ -7,9 +7,9 @@ Using Power Query and Power BI, I analyzed soda bottling production line data to
 For manufacturing companies, downtime directly impacts output and profitability. In this soda bottling plant, management noticed frequent production delays but lacked clear insights into the main causes. The goal was to analyze downtime data to identify key drivers and propose actionable strategies to reduce downtime.
 
 ### Methodology:
-1. Extracted and cleaned downtime records from the production line Excel file using Power Query.
-2. Modelled and visualised downtime data in Power BI to compare operators, machines, and downtime causes.
-3. Performed detailed exploratory analysis to quantify downtime distribution and identify critical drivers.
+1. Extracted and cleaned downtime records from the production line excel file using Power Query.
+2. Modelled data and performed detailed exploratory analysis using Power BI to quantify downtime distribution and identify critical drivers.
+3. Visualised downtime data in Power BI to compare downtime contribution by operators, machine failure, and inventory shortages.
 
 ### Skills:
 - SQL: Joins, CTEs, CASE statements, filtering, grouping, aggregation
