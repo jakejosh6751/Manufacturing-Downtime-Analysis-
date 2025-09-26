@@ -12,9 +12,8 @@ For manufacturing companies, downtime directly impacts output and profitability.
 3. Visualised downtime data in Power BI to compare downtime contribution by operators, machine failure, and inventory shortages.
 
 ### Skills:
-- SQL: Joins, CTEs, CASE statements, filtering, grouping, aggregation
-- Power BI: Data modelling, DAX measures, calculated columns, interactive dashboard design, ETL
-- Python: pandas, numpy, matplotlib, seaborn, statistics, funnel-style root cause analysis
+- Power Query: ETL, aggregation, unpivot.
+- Power BI: Data modelling, DAX measures, calculated columns, interactive dashboard design.
 
 ### Insights & Recommendation
 **1. What is the leading cause of downtime between operator and non-operator sources?**
