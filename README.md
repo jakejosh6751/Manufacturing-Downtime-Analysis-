@@ -17,7 +17,7 @@ For manufacturing companies, downtime directly impacts output and profitability.
 
 ### Insights & Recommendation
 **1. What is the impact of downtime on production duration target?**
-> 36% downtime of the 41 scheduled hours extended batch production duration by 23 hours.
+> 36% inefficiency extended batch production duration by 23 hours.
 
 **2. What is the leading cause of downtime between operator and non-operator sources?**
 > Operators were the leading cause of downtime.
