@@ -15,7 +15,7 @@ For manufacturing companies, downtime directly impacts output and profitability.
 - Power Query: ETL, aggregation, unpivot.
 - Power BI: Data modelling, DAX measures, calculated columns, interactive dashboard design.
 
-## Insights & Recommendation
+## Insights & Recommendation:
 **1. How does downtime impact production targets?**
 ![Insight 1.jpg](https://github.com/jakejosh6751/Manufacturing-Downtime-Analysis/blob/main/Insight%201.jpg)
 
