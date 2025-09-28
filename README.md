@@ -1,7 +1,11 @@
 # Manufacturing Downtime Analysis
 
 ## Executive Summary:
-Using Power Query and Power BI, I analyzed soda bottling production line data to identify the main causes of downtime. The analysis revealed that operator errors account for 56% of the inefficiencies. Based on the findings, I recommend targeted operator training, improved maintenance schedules, and upgrades to high-downtime equipment to boost operational efficiency.
+Using Power Query and Power BI, I analysed soda bottling production line data and found that downtime caused a 36% inefficiency, extending batch duration by 23 hours. Operator errors were the leading driver, with five factors—mainly machine adjustments, machine failure, and inventory shortage—accounting for 80% of total downtime. I recommended targeted operator training, preventive maintenance, equipment upgrades, and real-time inventory tracking to reduce downtime and improve operational efficiency.
+
+
+
+I recommend targeted operator training, improved maintenance schedules, and upgrades to high-downtime equipment to boost operational efficiency.
 
 ### Business Problem:
 For manufacturing companies, downtime directly impacts output and profitability. In this soda bottling plant, management noticed frequent production delays but lacked clear insights into the main causes. The goal was to analyze downtime data to identify key drivers and propose actionable strategies to reduce downtime.
